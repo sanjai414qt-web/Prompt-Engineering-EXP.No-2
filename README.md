@@ -43,9 +43,9 @@ In conclusion, blockchain technology is an innovative system that provides secur
 **1. Zero-Shot Prompt**
 
 **prompt input**
-~~~
+
 Summarize the following article about "The Basics of Blockchain Technology" in about 80–100 words suitable for undergraduate students.
-~~~
+
 
 **output**
 
@@ -55,7 +55,6 @@ Blockchain technology is a decentralized digital ledger used to record transacti
 
 **prompt input**
 
-~~~
 Example:
 
 Article: Artificial Intelligence is the simulation of human intelligence in machines that are programmed to think and learn.
@@ -69,7 +68,7 @@ Article: Cloud computing provides on-demand computing services such as storage, 
 Summary: Cloud computing allows users to access computing resources like storage and software online without owning physical hardware.
 
 Now summarize the following article on "The Basics of Blockchain Technology" in a similar short format (80–100 words).
-~~~
+
 **output**
 
 Blockchain is a decentralized digital ledger that securely records transactions across many computers in a network. Data is stored in blocks that are connected using cryptographic hashes, creating a chain that is difficult to alter. Each computer in the network maintains a copy of the ledger, which increases transparency and reliability. Blockchain systems use consensus mechanisms such as Proof of Work or Proof of Stake to validate transactions. Although it was first used for cryptocurrencies like Bitcoin, blockchain is now applied in areas such as healthcare, supply chain tracking, and digital identity management.
@@ -77,7 +76,7 @@ Blockchain is a decentralized digital ledger that securely records transactions 
 **3.Chain of thought prompt**
 
 **prompt input**
-~~~
+
 Read the following article about "The Basics of Blockchain Technology".
 
 Step 1: Identify what blockchain technology is.
@@ -86,7 +85,7 @@ Step 3: Mention the role of consensus mechanisms.
 Step 4: List important applications of blockchain.
 
 After reasoning through these steps, create a clear 100-word summary suitable for undergraduate students.
-~~~
+
 **output**
 
 
@@ -97,9 +96,9 @@ Blockchain technology is a decentralized system used to securely record digital 
 **1.Zeroshot**
 
 **prompt input**
-~~~
+
 Based on the text provided about blockchain, summarize the three main reasons why blockchain is considered more secure than traditional centralized ledgers in two sentences.
-~~~
+
 
 **output**
 
@@ -109,7 +108,6 @@ Blockchain is more secure because it uses a decentralized network of nodes to pr
 
 **prompt input**
 
-~~~
 Extract key definitions from the text in the following format:
 
 Term: Ledger
@@ -120,7 +118,7 @@ Definition: Individual computers in a network that store copies of the blockchai
 
 Term: Hash
 Definition:"
-~~~
+
 
 **output**
 
@@ -130,7 +128,7 @@ Definition: A unique digital fingerprint generated from data in a block used to 
 **3.Chain of thought prompt**
 
 **prompt input**
-~~~
+
 Explain what happens to a blockchain if a hacker tries to change a transaction in an old block. Break your answer down step-by-step:
 
 Describe the change to the data.
@@ -140,7 +138,6 @@ Describe the effect on the Hash.
 Describe the effect on the subsequent blocks.
 
 Conclude with why the network would reject this.
-~~~
 
 **output**
 
@@ -154,9 +151,9 @@ Conclude with why the network would reject this.
 **1.Zero shot prompt**
 
 **prompt input**
-~~~
+
 Rewrite the following text about blockchain for undergraduate CS/IT students. Make it concise, engaging, and structured with headers/lists while keeping key concepts intact:
-~~~
+
 
 **output**
 
@@ -165,7 +162,7 @@ Consensus like Proof of Work (PoW) or Stake (PoS) validates transactions. Benefi
 **2.Few shot prompt**
 
 **prompt input**
-~~~
+
 Rewrite texts for undergrad CS/IT students: concise, structured, engaging.
 
 Example 1:
@@ -174,8 +171,8 @@ Output: **Databases 101** ... [structured rewrite]
 
 Example 2:
 Input: [Short text on networks]
-Output: **Networking Basics** ... [structured rewrite]
-~~~
+Output:**Networking Basics** ... [structured rewrite]
+
 
 **output**
 
@@ -183,15 +180,15 @@ A distributed ledger of transaction blocks chained via hashes—change one, brea
 
 **3.Chain of thought**
 
-**prompt**
-~~~
+**prompt input**
+
 Rewrite the blockchain text below for CS/IT undergrads. Think step-by-step:
 
 1. Identify core concepts: ledger, decentralization, blocks/hashes, consensus, advantages, uses.
 2. Structure: Intro hook, explanation with analogy, sections for features/advantages/uses, conclusion.
 3. Tone: Friendly, concise (under 400 words), use lists/headers.
 4. Enhance: Add one analogy (e.g., for hashing).
-~~~
+
 
 **output**
 
